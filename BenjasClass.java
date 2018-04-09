@@ -30,7 +30,7 @@ public class BenjasClass extends Hero {
 		}
 		
 		int attackDamage = diceRoll(20);
-		System.out.println("\n" + name + " the " + baseClass + " has rolled " + initiative + " for initiative");		
+		System.out.println("\n" + name + " the " + baseClass + " has rolled " + attackDamage + " for initiative");		
 		printStats(user);
 		
 	}

@@ -43,7 +43,7 @@ public class Hero {
 	// Random number generator with strength value as a highest bound!
 	public int diceRoll(int boundaryNumber) {
 		Random generator = new Random();
-		int trulyRandomNumber = generator.nextInt(boundaryNumber);
+		int trulyRandomNumber = generator.nextInt(boundaryNumber) + 1;
 		return trulyRandomNumber;
 	}
 	

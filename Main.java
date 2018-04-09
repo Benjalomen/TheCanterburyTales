@@ -26,9 +26,9 @@ public class Main {
 		// Choosing hero's base class
 		System.out.println("~~~~~~~~~~~~~~~~~ The Canterbuy Tales ~~~~~~~~~~~~~~~~~~");
 		System.out.println("Please choose your class:");
-		System.out.println("\t1) Minstrel");
+		System.out.println("\t1) Common House Cat");
 		System.out.println("\t2) Pacifist");
-		System.out.println("\t3) Common House Cat");
+		System.out.println("\t3) Minstrel");
 		int classChoice = input.nextInt();
 		if (classChoice == 1) {
 			user = new LogansClass();
